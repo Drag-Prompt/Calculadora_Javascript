@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <a href="#"><li>Início</li></a>
+            <a href="pagina02.html"><li>Contato</li></a>
+            <a href="pagina02.html" id="Inscreva-se-btn"><li>Meu Card!</li></a>
+        </ul>
+        
+    </header>
+    <section>
+        
+    </section>
+    <aside>
+        <p>Calculadora</p>
+        <div id="fundoDeQuintal">
+                
+            </div>
+            <div id="containerBotao">
+                <div>
+                    <input id="limpar1" type="button" value="C" onclick="limpar()">
+                </div>
+                <div id="primeira">
+                    <input id="butao1" type="button" value="1" onclick="inserir('1')">
+                    <input id="butao2" type="button" value="2" onclick="inserir('2')">
+                    <input id="butao3" type="button" value="3" onclick="inserir('3')">
+                    <input id="butaoMais" type="button" value="+" onclick="inserir('+')"> 
+                </div>
+                <div>
+                    <input id="butao4" type="button" value="4" onclick="inserir('4')">
+                    <input id="butao5" type="button" value="5" onclick="inserir('5')">
+                    <input id="butao6" type="button" value="6" onclick="inserir('6')">
+                    <input id="butaoMenos" type="button" value="-" onclick="inserir('-')">
+                </div>
+                <div>
+                    <input id="butao7" type="button" value="7" onclick="inserir('7')">
+                    <input id="butao8" type="button" value="8" onclick="inserir('8')">
+                    <input id="butao9" type="button" value="9" onclick="inserir('9')">
+                    <input id="butaoMult" type="button" value="x" onclick="inserir('*')">
+                </div>
+                <div>
+                    <input id="butao0" type="button" value="0" onclick="inserir('0')">
+                    <input id="butaoDiv" type="button" value="/" onclick="inserir('/')">
+                    <input id="butaoPerc" type="button" value="%" onclick="inserir('%')">
+                    <input id="butaoExp" type="button" value="x2" onclick="inserir('**')">
+                </div>
+                <div>
+                    <input id="igual" type="button" value="=" onclick="igual()">
+                </div>
+            </div>
+            
+            
+        </div>
+        
+    </aside>
+    
+    <footer id="footer1">
+        <p>&copy; by Drag_Prompt</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

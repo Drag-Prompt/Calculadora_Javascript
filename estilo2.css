@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(76, 76, 206);
+    background-image: url(programming-wallpaper-1280x720.jpg);
+}
+section {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: aliceblue;
+    font-family: Bahnschrift, monospace;
+    font-size: 18pt;
+    text-align: left;
+    margin: auto;
+    margin-top: 200px;
+    max-width: 600px;
+    border-radius:10px;
+    padding: 30px;
+}
+img {
+    border-radius: 50%;
+    margin-left: 50px;
+
+}
+li {
+    display: inline-block; /*Para estilizar os elementos da lista em formato de linha*/
+    margin: 25px;
+}
+#linkeBut {
+    color: rgb(0, 0, 0);
+}
+#gitBut {
+    color: rgb(0, 0, 0);
+}
+#instaBut {
+    color: rgb(0, 0, 0);
+}
+#linkeBut:hover{
+    color: rgb(233, 78, 119);
+    transition: 0.3s all;
+}
+#gitBut:hover{
+    color: rgb(233, 78, 119);
+    transition: 0.3s all;
+}
+#instaBut:hover{
+    color: rgb(233, 78, 119);
+    transition: 0.3s all;
+}
+
+#instaBut { /*Configs de margem e arredondamento*/
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+#instaBut { /*transição do botão e troca de cores*/
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#linkeBut { /*Configs de margem e arredondamento*/
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+#linkeBut { /*transição do botão e troca de cores*/
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#gitBut { /*Configs de margem e arredondamento*/
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 20px;
+}
+#gitBut { /*transição do botão e troca de cores*/
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 24px;
+    font-family: Bahnschrift, monospace;
+    max-width: 100%;
+    max-height: 200px;
+    background-color: rgba(66, 63, 63, 0.747); 
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin-top: 300px;
+}

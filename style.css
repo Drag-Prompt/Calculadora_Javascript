@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(198, 229, 217);
+    color: white;
+    font-family: Bahnschrift;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-right: 23px;
+    
+}
+li {
+    display: inline-block; /*Para estilizar os elementos da lista em formato de linha*/
+    margin: 25px;
+}
+a {
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(233, 78, 119);
+    transition: 0.3s all;
+}
+
+#Inscreva-se-btn { /*Configs de margem e arredondamento*/
+    border: 2px solid rgb(233, 78, 119);
+    padding: 10px;
+    border-radius: 20px;
+}
+#Inscreva-se-btn:hover { /*transição do botão e troca de cores*/
+    background-color: rgb(233, 78, 119);
+    color: white;
+}
+
+
+
+aside {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    font-family: Jetbrains Mono;
+    font-size: 22px;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+}
+input {
+    width: 60px;
+    height: 60px;
+    font-size: 22px;
+    border-radius: 10px;
+    margin-left: 1px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 1px rgb(124, 101, 101);
+}
+#igual {
+    width: 301px;
+    background-color: rgb(75, 175, 120);
+    margin-top: 15px;
+}
+#limpar1 {
+    width: 301px;
+    background-color: rgb(231, 225, 142);
+    margin-bottom: 15px;
+}
+#fundoDeQuintal{
+    background-color: rgb(211, 113, 113);
+    color: black;
+    width: 268px;
+    height: 25px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    text-align: right;
+}
+
+
+
+#footer1 {
+    flex-direction: row;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(255, 255, 255)aliceblue;
+    font-size: 24px;
+    max-width: 1200px;
+    max-height: 400px;
+    background-color: rgb(206, 110, 119); 
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    margin-top: 25px;
+}

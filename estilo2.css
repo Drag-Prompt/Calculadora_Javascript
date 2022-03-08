@@ -22,7 +22,7 @@ img {
 }
 li {
     display: inline-block; /*Para estilizar os elementos da lista em formato de linha*/
-    margin: 25px;
+    margin: 5px;
 }
 #linkeBut {
     color: rgb(0, 0, 0);
@@ -48,8 +48,8 @@ li {
 
 #instaBut { /*Configs de margem e arredondamento*/
     border: 2px solid rgb(0, 0, 0);
-    padding: 10px;
-    border-radius: 20px;
+    padding: 5px;
+    border-radius: 10px;
 }
 #instaBut { /*transição do botão e troca de cores*/
     background-color: rgb(0, 0, 0);
@@ -57,8 +57,8 @@ li {
 }
 #linkeBut { /*Configs de margem e arredondamento*/
     border: 2px solid rgb(0, 0, 0);
-    padding: 10px;
-    border-radius: 20px;
+    padding: 5px;
+    border-radius: 10px;
 }
 #linkeBut { /*transição do botão e troca de cores*/
     background-color: rgb(0, 0, 0);
@@ -66,8 +66,8 @@ li {
 }
 #gitBut { /*Configs de margem e arredondamento*/
     border: 2px solid rgb(0, 0, 0);
-    padding: 10px;
-    border-radius: 20px;
+    padding: 5px;
+    border-radius: 10px;
 }
 #gitBut { /*transição do botão e troca de cores*/
     background-color: rgb(0, 0, 0);
